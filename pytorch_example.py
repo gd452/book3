@@ -67,3 +67,9 @@ output = torch.argmax(a, dim=1) # 각 행에서 가장 큰 값의 인덱스를 �
 print(output)
 output = torch.argmax(a, dim=0) # 각 열에서 가장 큰 값의 인덱스를 반환
 print(output)
+
+print("\n******************************\n")
+x = torch.randn(2,3,4)
+print(x)
+print(x.view(-1))
+
